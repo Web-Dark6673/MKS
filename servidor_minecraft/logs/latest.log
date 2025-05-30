@@ -1,0 +1,560 @@
+[30May2025 14:38:26.343] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[30May2025 14:38:26.347] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[30May2025 14:38:27.046] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[30May2025 14:38:27.106] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MKS/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[30May2025 14:38:27.525] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MKS/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[30May2025 14:38:27.526] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MKS/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[30May2025 14:38:27.528] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MKS/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[30May2025 14:38:27.529] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MKS/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[30May2025 14:38:27.789] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[30May2025 14:38:27.791] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 15 dependencies adding them to mods collection
+[30May2025 14:38:30.131] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[30May2025 14:38:30.308] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[30May2025 14:38:30.310] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[30May2025 14:38:30.328] [main/INFO] [Xenon/]: Loaded configuration file for Xenon: 104 options available, 0 override(s) found
+[30May2025 14:38:30.344] [main/WARN] [mixin/]: Reference map 'naturalist-forge-forge-refmap.json' for naturalist.mixins.json could not be read. If this is a development environment you can ignore this message
+[30May2025 14:38:30.507] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[30May2025 14:38:30.519] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[30May2025 14:38:30.546] [main/INFO] [Puzzles Lib/]: Loading 49 mods:
+	- adorn 5.0.1+1.20.1
+	- ambientsounds 6.0.3
+	- appleskin 2.5.1+mc1.20.1
+	- architectury 9.2.14
+	- born_in_chaos_v1 1.0.0
+	- bosses_of_mass_destruction 1.1.2
+	- cataclysm 1.99.5
+	- cerbons_api 1.1.0
+	- chiselsandbits 1.4.148
+		\-- scena 1.0.103
+	- cloth_config 11.1.118
+	- creativecore 2.11.32
+	- creeperoverhaul 3.0.2
+		\-- resourcefullib 2.1.20
+	- curios 5.9.1+1.20.1
+	- deeperdarker 1.2.1
+	- dungeoncrawl 2.3.14
+	- dungeons_arise 2.1.58-1.20.x
+	- farmersdelight 1.20.1-1.2.4
+	- forge 47.3.7
+	- geckolib 4.4.7
+	- gravestone 1.20.1-1.0.17
+	- hangglider 8.0.1
+	- incendium 5.3.5
+	- inventoryhud 3.4.24
+	- jade 11.9.4+forge
+	- jei 15.8.0.16
+	- kotlinforforge 4.11.0
+	- lionfishapi 1.9
+	- minecraft 1.20.1
+	- moonlight 1.20-2.12.9
+	- morebows 1.0.13
+	- naturalist 4.0.3
+	- playerrevive 2.0.26
+	- puzzleslib 8.1.21
+		\-- puzzlesaccessapi 8.0.7
+	- resourcefulconfig 2.1.2
+	- simplyswords 1.55.0-1.20.1
+	- sophisticatedbackpacks 3.20.5.1044
+	- sophisticatedcore 0.6.22.611
+	- supplementaries 1.20-2.8.17
+		|-- mixinextras 0.3.6
+		\-- mixinsquared 0.1.1
+	- terralith 2.5.4
+	- tlskincape 1.32
+	- toolbelt 1.20.01
+	- visuality 2.0.2
+	- xaerominimap 24.2.0
+	- xenon 0.3.31
+		|-- embeddium 0.3.31
+		\-- rubidium 0.7.1
+[30May2025 14:38:30.553] [main/WARN] [mixin/]: Reference map 'chiselsandbits.refmap.json' for chisels-and-bits.mixins.json could not be read. If this is a development environment you can ignore this message
+[30May2025 14:38:32.016] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[30May2025 14:38:32.016] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[30May2025 14:38:32.334] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[30May2025 14:38:32.335] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[30May2025 14:38:32.336] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[30May2025 14:38:32.340] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[30May2025 14:38:32.341] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[30May2025 14:38:32.341] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[30May2025 14:38:32.342] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[30May2025 14:38:32.343] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[30May2025 14:38:32.897] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[30May2025 14:38:38.148] [modloading-worker-0/INFO] [scena-forge/]: Initialized scena-forge
+[30May2025 14:38:38.188] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
+[30May2025 14:38:38.320] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[30May2025 14:38:38.320] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[30May2025 14:38:39.033] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for hangglider:main
+[30May2025 14:38:39.699] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[30May2025 14:38:39.932] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[30May2025 14:38:39.955] [modloading-worker-0/WARN] [Visuality/]: Visuality is installed on a dedicated server, skip loading...
+[30May2025 14:38:40.023] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[30May2025 14:38:40.059] [modloading-worker-0/INFO] [mod.chiselsandbits.forge.Forge/]: Initialized Chisels&Bits - Forge
+[30May2025 14:38:40.187] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlockEntityTypes/]: Loaded block entity configuration.
+[30May2025 14:38:40.213] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlocks/]: Loaded block configuration.
+[30May2025 14:38:40.221] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModeGroups/]: Loaded chisel mode group configuration.
+[30May2025 14:38:40.812] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModes/]: Loaded chisel mode configuration.
+[30May2025 14:38:40.815] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModContainerTypes/]: Loaded container type configuration.
+[30May2025 14:38:40.819] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModCreativeTabs/]: Loaded item group configuration.
+[30May2025 14:38:40.845] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModItems/]: Loaded item configuration.
+[30May2025 14:38:40.850] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModMetadataKeys/]: Loaded metadata key configuration.
+[30May2025 14:38:40.858] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModelProperties/]: Loaded model property configuration.
+[30May2025 14:38:40.864] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperation/]: Loaded modification operation configuration.
+[30May2025 14:38:40.867] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperationGroups/]: Loaded modification operation group configuration.
+[30May2025 14:38:40.877] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModPatternPlacementTypes/]: Loaded pattern placement type configuration.
+[30May2025 14:38:40.880] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModRecipeSerializers/]: Loaded recipe serializer configuration.
+[30May2025 14:38:40.883] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModTags/]: Loaded tag configuration.
+[30May2025 14:38:40.887] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModRecipeTypes/]: Registering recipe types.
+[30May2025 14:38:40.889] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModEventHandler/]: Registering event handlers
+[30May2025 14:38:42.481] [main/INFO] [Moonlight/]: Initialized block sets in 21ms
+[30May2025 14:38:43.256] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[30May2025 14:38:43.422] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[30May2025 14:38:43.628] [main/INFO] [Supplementaries/]: Finished mod setup in: [0, 2, 0, 2, 0, 2, 39, 16, 4] ms
+[30May2025 14:38:43.649] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[30May2025 14:38:43.649] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[30May2025 14:38:43.699] [main/INFO] [Moonlight/]: Initialized color sets in 63ms
+[30May2025 14:38:43.727] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[30May2025 14:38:43.731] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[30May2025 14:38:43.825] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[30May2025 14:38:43.834] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[30May2025 14:38:43.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[30May2025 14:38:43.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
+[30May2025 14:38:43.847] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-2.8.17 Target: null
+[30May2025 14:38:43.848] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[30May2025 14:38:43.855] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[30May2025 14:38:43.860] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.12.9 Target: null
+[30May2025 14:38:43.860] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morebows] Starting version check at https://nerdthened.github.io/More-bows/update-modern.json
+[30May2025 14:38:43.861] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[30May2025 14:38:43.865] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[30May2025 14:38:43.932] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morebows] Found status: UP_TO_DATE Current: 1.0.13 Target: null
+[30May2025 14:38:43.932] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hangglider] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/hangglider.json
+[30May2025 14:38:43.942] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hangglider] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[30May2025 14:38:43.942] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[30May2025 14:38:44.462] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.17 Target: 1.20.1-1.0.23
+[30May2025 14:38:44.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[30May2025 14:38:44.486] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: OUTDATED Current: 3.4.24 Target: 3.4.26
+[30May2025 14:38:44.486] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[30May2025 14:38:44.498] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.21 Target: 8.1.32
+[30May2025 14:38:46.458] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30May2025 14:38:47.945] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MKS/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23187!/assets/.mcassetsroot' uses unexpected schema
+[30May2025 14:38:47.945] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MKS/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23187!/data/.mcassetsroot' uses unexpected schema
+[30May2025 14:38:48.089] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 56 ms
+[30May2025 14:38:50.109] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag alexsmobs:skreechers_can_spawn_wardens as it is missing following references: deeperdarker:otherside (from deeperdarker-forge-1.20.1-1.2.1 (1).jar)
+[30May2025 14:38:50.944] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23192!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23192!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[30May2025 14:38:53.145] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[30May2025 14:38:53.191] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_1_via_sewing as it's serializer returned null
+[30May2025 14:38:53.194] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[30May2025 14:38:53.230] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_3_via_sewing as it's serializer returned null
+[30May2025 14:38:53.243] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_5_via_sewing as it's serializer returned null
+[30May2025 14:38:53.253] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_4_via_sewing as it's serializer returned null
+[30May2025 14:38:53.257] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[30May2025 14:38:53.257] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:belt_via_sewing as it's serializer returned null
+[30May2025 14:38:53.258] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_6_via_sewing as it's serializer returned null
+[30May2025 14:38:53.259] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe naturalist:frontier_cap
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'forge:mod_loaded'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[30May2025 14:38:53.270] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe naturalist:frontier_cap_alt
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'forge:mod_loaded'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[30May2025 14:38:53.274] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_via_sewing as it's serializer returned null
+[30May2025 14:38:53.278] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe supplementaries:slice_map
+com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
+	at net.minecraft.util.GsonHelper.m_13906_(GsonHelper.java:127) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraftforge.common.crafting.conditions.TagEmptyCondition$Serializer.read(TagEmptyCondition.java:68) ~[forge-1.20.1-47.3.7-universal.jar%23192!/:?]
+	at net.minecraftforge.common.crafting.conditions.TagEmptyCondition$Serializer.read(TagEmptyCondition.java:55) ~[forge-1.20.1-47.3.7-universal.jar%23192!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:232) ~[forge-1.20.1-47.3.7-universal.jar%23192!/:?]
+	at net.minecraftforge.common.crafting.conditions.NotCondition$Serializer.read(NotCondition.java:54) ~[forge-1.20.1-47.3.7-universal.jar%23192!/:?]
+	at net.minecraftforge.common.crafting.conditions.NotCondition$Serializer.read(NotCondition.java:41) ~[forge-1.20.1-47.3.7-universal.jar%23192!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:232) ~[forge-1.20.1-47.3.7-universal.jar%23192!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:220) ~[forge-1.20.1-47.3.7-universal.jar%23192!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:209) ~[forge-1.20.1-47.3.7-universal.jar%23192!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[30May2025 14:38:53.294] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_7_via_sewing as it's serializer returned null
+[30May2025 14:38:53.297] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_2_via_sewing as it's serializer returned null
+[30May2025 14:38:53.314] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 13 recipes
+[30May2025 14:38:53.496] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2585 advancements
+[30May2025 14:38:53.501] [main/INFO] [Dungeon Crawl/]: Loading data...
+[30May2025 14:38:53.775] [main/INFO] [Dungeon Crawl/]: Done.
+[30May2025 14:38:53.795] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
+[30May2025 14:38:53.803] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[30May2025 14:38:53.811] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[30May2025 14:38:53.846] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[30May2025 14:38:54.835] [main/INFO] [Moonlight/]: Applied 7 data villager trades
+[30May2025 14:38:54.853] [main/INFO] [Supplementaries/]: Finished additional setup in 13 ms
+[30May2025 14:38:55.079] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[30May2025 14:38:55.080] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[30May2025 14:38:55.080] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[30May2025 14:38:55.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30May2025 14:38:55.195] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[30May2025 14:38:55.226] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[30May2025 14:38:55.333] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[30May2025 14:38:55.334] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[30May2025 14:38:55.335] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[30May2025 14:38:55.335] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[30May2025 14:38:55.367] [Server thread/INFO] [Puzzles Lib/]: Loading server config for hangglider
+[30May2025 14:38:55.368] [Thread-2/INFO] [Puzzles Lib/]: Reloading server config for hangglider
+[30May2025 14:38:55.370] [Thread-2/INFO] [Puzzles Lib/]: Reloading server config for hangglider
+[30May2025 14:38:55.540] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[30May2025 14:38:58.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30May2025 14:39:03.005] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30May2025 14:39:03.007] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30May2025 14:39:03.008] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30May2025 14:39:03.008] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30May2025 14:39:03.009] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30May2025 14:39:03.009] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30May2025 14:39:03.010] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30May2025 14:39:03.010] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30May2025 14:39:03.011] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30May2025 14:39:03.011] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30May2025 14:39:03.471] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[30May2025 14:39:03.971] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[30May2025 14:39:04.091] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5621 ms
+[30May2025 14:39:04.092] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.742s)! For help, type "help"
+[30May2025 14:39:04.141] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[30May2025 14:51:14.533] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aki_r22[/127.120.216.121:47369] logged in with entity id 103 at (-295.7136785112768, 79.5, -513.1381894127943)
+[30May2025 14:51:14.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 joined the game
+[30May2025 14:51:14.641] [Server thread/INFO] [Jade/]: Syncing config to Aki_r22 (a0d3169f-475a-32bc-a262-204167b6e77a)
+[30May2025 15:21:35.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 has made the advancement [The Parrots and the Bats]
+[30May2025 15:22:02.404] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aki_r22 was kicked for floating too long!
+[30May2025 15:22:02.454] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aki_r22 lost connection: Flying is not enabled on this server
+[30May2025 15:22:02.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 left the game
+[30May2025 15:23:07.449] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@519bd6b0[id=<null>,name=Aki_r22,properties={},legacy=false] (/127.120.216.121:36539) lost connection: Disconnected
+[30May2025 15:23:28.718] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aki_r22[/127.120.216.121:35883] logged in with entity id 4924 at (-328.1088153218292, 75.93883597911214, -517.7847509250905)
+[30May2025 15:23:28.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 joined the game
+[30May2025 15:23:28.738] [Server thread/INFO] [Jade/]: Syncing config to Aki_r22 (a0d3169f-475a-32bc-a262-204167b6e77a)
+[30May2025 15:33:28.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 has made the advancement [Voluntary Exile]
+[30May2025 15:54:07.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 is bleeding. Aki_r22 was slain by Nightmare Stalker
+[30May2025 15:54:19.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 was slain by Nightmare Stalker
+[30May2025 15:54:21.478] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30May2025 16:19:31.059] [pool-5-thread-1/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy]] from pos BlockPos{x=-293, y=74, z=-1163}
+[30May2025 16:26:24.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 has made the advancement [Dark Metallurgy]
+[30May2025 16:28:33.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 is bleeding. Aki_r22 was slain by Scarlet Persecutor
+[30May2025 16:28:48.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 was slain by Scarlet Persecutor
+[30May2025 16:28:50.499] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30May2025 16:39:51.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 is bleeding. Aki_r22 was slain by Scarlet Persecutor
+[30May2025 16:40:09.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 was slain by Scarlet Persecutor
+[30May2025 16:40:12.874] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30May2025 16:42:52.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 has made the advancement [Getting an Upgrade]
+[30May2025 17:03:22.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[30May2025 17:03:22.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: asd<--[HERE]
+[30May2025 17:05:35.174] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: David[/127.196.28.254:46309] logged in with entity id 23665 at (-1721.8006967980107, 104.0, -576.3946783159909)
+[30May2025 17:05:35.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David joined the game
+[30May2025 17:05:35.213] [Server thread/INFO] [Jade/]: Syncing config to David (8030b484-93cb-3e44-a5c9-97b5258ad3b1)
+[30May2025 17:05:52.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> buenas
+[30May2025 17:06:02.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> BUENAS
+[30May2025 17:06:02.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> olle hasta que hora estuviste xd
+[30May2025 17:06:12.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> 10 XD
+[30May2025 17:06:26.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> no tienes vida o que we
+[30May2025 17:06:33.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> ando d vago xd
+[30May2025 17:06:38.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> aahh
+[30May2025 17:06:49.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> ando de vacaciones
+[30May2025 17:06:54.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> duerme xd
+[30May2025 17:07:00.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> xd
+[30May2025 17:07:10.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> tu casa esta cerca de la mia
+[30May2025 17:07:19.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> me ayudas q me mataron y esta en la mrd mi loot
+[30May2025 17:07:32.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [David: Teleported David to Aki_r22]
+[30May2025 17:09:18.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David is bleeding. David was slain by Scarlet Persecutor
+[30May2025 17:09:55.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 is bleeding. Aki_r22 was slain by Scarlet Persecutor
+[30May2025 17:10:56.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> a
+[30May2025 17:11:09.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> arriba xd
+[30May2025 17:11:17.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> que honda con las cuebas
+[30May2025 17:11:26.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> q miedo
+[30May2025 17:14:21.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> tienes libro de encantamiento?
+[30May2025 17:14:33.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> por?
+[30May2025 17:14:48.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> pregunto
+[30May2025 17:14:58.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> 1 que encontre
+[30May2025 17:15:45.771] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Donkey (vehicle of Aki_r22) moved wrongly! 0.27306636972025444
+[30May2025 17:15:45.823] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Donkey (vehicle of Aki_r22) moved wrongly! 0.6083626289280346
+[30May2025 17:15:45.906] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Donkey (vehicle of Aki_r22) moved wrongly! 0.9400334492227103
+[30May2025 17:15:45.954] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Donkey (vehicle of Aki_r22) moved wrongly! 1.2697643694384624
+[30May2025 17:16:03.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> donde hay otra asi
+[30May2025 17:16:08.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> no se
+[30May2025 17:16:21.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> no q ayer encontraste una?
+[30May2025 17:16:35.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> era un molino
+[30May2025 17:16:40.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> xd
+[30May2025 17:16:50.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> hay torres que son duncheons
+[30May2025 17:16:54.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> cerca de mi casa hay una cueva
+[30May2025 17:16:54.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> esas son beunas
+[30May2025 17:17:10.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> q parece el mismo infierno
+[30May2025 17:19:15.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> alta casa
+[30May2025 17:19:33.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> donde esta la tuya
+[30May2025 17:19:42.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> bloquea tu mochila xd
+[30May2025 17:19:50.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> los demas la pueden abrir
+[30May2025 17:19:57.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> la revisaste xd
+[30May2025 17:20:07.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> estaba comiendo y te crusaste
+[30May2025 17:20:20.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> como se bloquea xd
+[30May2025 17:20:35.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> en la mochila
+[30May2025 17:20:40.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> hay una tuerquita
+[30May2025 17:21:30.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> quiero ir a explorar xd
+[30May2025 17:22:19.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> xdd
+[30May2025 17:22:27.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> ese man quita media alama
+[30May2025 17:23:01.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David has made the advancement [Dark Metallurgy]
+[30May2025 17:23:02.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David has made the advancement [Piece of Chaos]
+[30May2025 17:23:37.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> mi casa esta por alla
+[30May2025 17:24:51.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> hay un mod de cocina
+[30May2025 17:25:07.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David has made the advancement [Crops of the Wild]
+[30May2025 17:25:13.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> y q se puede hacer
+[30May2025 17:25:19.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> de todod
+[30May2025 17:27:47.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> xd
+[30May2025 17:28:18.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> no habia visto esto
+[30May2025 17:28:26.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> eso me llevo
+[30May2025 17:28:33.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> al castillo ese
+[30May2025 17:28:39.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> aahh
+[30May2025 17:28:48.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> xd
+[30May2025 17:30:15.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> aca es donde mori
+[30May2025 17:30:30.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> mucho mobs?
+[30May2025 17:30:33.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> se
+[30May2025 17:31:22.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> rompe los spanw
+[30May2025 17:31:42.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 is bleeding. Aki_r22 was shot by Stray
+[30May2025 17:32:50.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 is bleeding. Aki_r22 was shot by Stray
+[30May2025 17:33:04.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> bruh como revientan
+[30May2025 17:35:02.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 is bleeding. Aki_r22 was slain by Vex
+[30May2025 17:35:04.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David is bleeding. David was slain by Vex
+[30May2025 17:35:07.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> ke
+[30May2025 17:35:09.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> xd
+[30May2025 17:35:19.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David was slain by Vex
+[30May2025 17:35:21.740] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30May2025 17:35:24.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [David: Teleported David to -1403.500000, 69.500000, -540.500000]
+[30May2025 17:36:58.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 is bleeding. Aki_r22 was slain by Vex
+[30May2025 17:37:17.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 is bleeding. Aki_r22 was slain by Vex
+[30May2025 17:37:37.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David is bleeding. David was slain by Vex
+[30May2025 17:37:47.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> esta lleno de vichos arriba
+[30May2025 17:38:06.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> toca retroceder
+[30May2025 17:38:17.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 was slain by Vex
+[30May2025 17:38:18.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David was slain by Vex
+[30May2025 17:38:20.068] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30May2025 17:38:24.114] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30May2025 17:38:29.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [David: Teleported David to -1399.500000, 69.500000, -534.500000]
+[30May2025 17:38:41.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [David: Teleported Aki_r22 to David]
+[30May2025 17:39:12.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> MIRA EL MAPA
+[30May2025 17:39:24.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> jajajajaja
+[30May2025 17:39:52.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> quieres seguir?
+[30May2025 17:39:57.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> el mapa puedes config para cambiar de color a los mobs
+[30May2025 17:40:11.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> por que de por si son todos del mismo color xd
+[30May2025 17:40:16.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> en q parte
+[30May2025 17:40:22.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 has made the advancement [Take Aim]
+[30May2025 17:40:32.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> con la y
+[30May2025 17:41:15.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David has made the advancement [Take Aim]
+[30May2025 17:41:35.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> no tengo comida
+[30May2025 17:41:47.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> toma
+[30May2025 17:42:01.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> grax
+[30May2025 17:42:18.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> se escuchan muchos esqueletos
+[30May2025 17:42:48.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> rompe el techo
+[30May2025 17:42:52.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David is bleeding. David was slain by Vex
+[30May2025 17:42:58.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 is bleeding. Aki_r22 was slain by Vex
+[30May2025 17:43:05.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David was slain by Vex
+[30May2025 17:43:07.745] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30May2025 17:43:12.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [David: Teleported David to -1402.500000, 69.500000, -532.500000]
+[30May2025 17:43:29.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> vamonos xd
+[30May2025 17:43:40.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 is bleeding. Aki_r22 was shot by Stray
+[30May2025 17:43:43.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> aaa
+[30May2025 17:43:50.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David is bleeding. David was shot by Stray
+[30May2025 17:44:01.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David was shot by Stray
+[30May2025 17:44:02.709] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30May2025 17:44:07.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [David: Teleported David to -1407.500000, 64.500000, -536.500000]
+[30May2025 17:44:08.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> jajajjajaj re tryhards
+[30May2025 17:44:43.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> volvamos cuando estemos ful diamond
+[30May2025 17:45:33.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> esto q es
+[30May2025 17:45:39.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> el molino
+[30May2025 17:45:42.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 has made the advancement [The Lighthouse]
+[30May2025 17:45:48.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> un faro quise decir
+[30May2025 17:46:36.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> me saldra el waterdrop xd
+[30May2025 17:46:55.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> no se
+[30May2025 17:46:57.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> xd
+[30May2025 17:47:01.491] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aki_r22 moved too quickly! 1.8359188958647792,-10.854658122346834,-0.6438414214559316
+[30May2025 17:47:03.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 is bleeding. Aki_r22 fell from a high place
+[30May2025 17:47:12.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> me buguie xdddd
+[30May2025 17:48:34.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> todavia no la termino
+[30May2025 17:48:45.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> lugar bonito para hacer una casa
+[30May2025 17:48:49.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> se
+[30May2025 17:49:03.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> aver si me mudo xd
+[30May2025 17:49:08.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> xd
+[30May2025 17:49:53.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> te ayudo en algo?
+[30May2025 17:50:03.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> por ahora estoy bien
+[30May2025 17:55:15.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> duerme porfa
+[30May2025 17:58:38.876] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1740, y=103, z=-607} BlockPos{x=-1739, y=103, z=-605}
+[30May2025 17:59:56.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> bro no hay de alguna manera de cuando no estes yo pueda abrir el server?
+[30May2025 18:00:27.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> tendrias que tener mi cuenta xd
+[30May2025 18:00:33.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> a
+[30May2025 18:03:46.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> no esta el mod de reforzar bloques vdd?
+[30May2025 18:03:52.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> nop
+[30May2025 18:10:27.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [David: Set own game mode to Spectator Mode]
+[30May2025 18:10:57.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [David: Set own game mode to Survival Mode]
+[30May2025 18:15:42.966] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1759, y=103, z=-555} BlockPos{x=-1760, y=102, z=-554}
+[30May2025 18:15:42.986] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1759, y=103, z=-555} BlockPos{x=-1760, y=102, z=-554}
+[30May2025 18:15:43.036] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1759, y=103, z=-555} BlockPos{x=-1760, y=102, z=-554}
+[30May2025 18:26:30.136] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-329, y=79, z=-471} BlockPos{x=-330, y=78, z=-473}
+[30May2025 18:26:52.636] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-334, y=76, z=-455} BlockPos{x=-334, y=74, z=-454}
+[30May2025 18:26:52.685] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-334, y=76, z=-455} BlockPos{x=-334, y=74, z=-454}
+[30May2025 18:40:56.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[30May2025 18:40:56.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: asdasd<--[HERE]
+[30May2025 19:03:37.309] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1753, y=103, z=-567} BlockPos{x=-1752, y=102, z=-568}
+[30May2025 19:06:41.179] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-275, y=73, z=-460} BlockPos{x=-275, y=71, z=-460}
+[30May2025 19:12:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [David: Teleported David to -1720.500000, 104.500000, -567.500000]
+[30May2025 19:16:52.362] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-280, y=71, z=-586} BlockPos{x=-281, y=69, z=-587}
+[30May2025 19:16:53.759] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-272, y=70, z=-590} BlockPos{x=-272, y=70, z=-589}
+[30May2025 19:17:49.758] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-323, y=68, z=-585} BlockPos{x=-325, y=67, z=-585}
+[30May2025 19:29:41.668] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-352, y=68, z=-569} BlockPos{x=-351, y=67, z=-569}
+[30May2025 19:39:12.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 has made the advancement [Bypassing the Expiration Date]
+[30May2025 20:00:48.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> que haces xd
+[30May2025 20:01:55.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> ayudame w
+[30May2025 20:02:12.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> una muralla
+[30May2025 20:02:14.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> xd
+[30May2025 20:02:18.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> sabias que los huevos puedes cocinarlos?
+[30May2025 20:02:27.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> cuales
+[30May2025 20:02:52.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> xd
+[30May2025 20:02:59.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> como se eclosiona
+[30May2025 20:03:18.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> lo metes al horno?
+[30May2025 20:03:22.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> si
+[30May2025 20:03:35.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> esa hacha q xd
+[30May2025 20:03:41.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> mas grande q tu
+[30May2025 20:03:46.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> xd
+[30May2025 20:03:51.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> tambien la puedes hacer
+[30May2025 20:04:00.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> cuanto quita
+[30May2025 20:04:23.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 has reached the goal [Exorcism]
+[30May2025 20:04:45.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David has reached the goal [Exorcism]
+[30May2025 20:05:32.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> como se hace
+[30May2025 20:05:50.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> en el jei te aparece todo xd
+[30May2025 20:06:01.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> como se llama xd
+[30May2025 20:06:03.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> para eso lo puse
+[30May2025 20:06:21.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> simpi sword
+[30May2025 20:06:25.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> simply
+[30May2025 20:07:00.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> no sale
+[30May2025 20:08:35.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> xd
+[30May2025 20:08:54.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> tomatela xd
+[30May2025 20:09:02.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> ya la conozco
+[30May2025 20:09:41.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> tienes ,cuah piedra q no uses?
+[30May2025 20:09:50.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> quisiste reforzar la casa no?
+[30May2025 20:09:55.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> no tengo
+[30May2025 20:10:44.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> xd
+[30May2025 20:10:49.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> crei q era para eso
+[30May2025 20:10:53.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> xd
+[30May2025 20:11:02.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aki_r22> es para hacer diseños y tal
+[30May2025 20:11:07.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> sip
+[30May2025 20:11:15.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <David> duerme
+[30May2025 20:13:40.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [David: Teleported David to -1720.500000, 104.500000, -567.500000]
