@@ -3907,5 +3907,29 @@
     },
     "done": false
   },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_the_recipe": "2025-05-30 23:20:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-05-30 23:16:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2025-05-30 23:16:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-05-30 23:16:00 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
