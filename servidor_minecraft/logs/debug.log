@@ -3499,3 +3499,13 @@ com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
 [31May2025 02:50:48.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
 [31May2025 02:50:48.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: asd<--[HERE]
 [31May2025 02:53:08.133] [Server thread/DEBUG] [mixin/]: Mixing MixinPiglinAi from curios.mixins.json into net.minecraft.world.entity.monster.piglin.PiglinAi
+[31May2025 02:53:52.772] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[31May2025 02:53:52.782] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[31May2025 02:58:52.771] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[31May2025 02:58:52.780] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[31May2025 03:02:10.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[31May2025 03:02:10.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: asd<--[HERE]
+[31May2025 03:02:14.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 1 of a max of 20 players online: Aki_r22
+[31May2025 03:03:03.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 is bleeding. Aki_r22 was shot by Skeleton
+[31May2025 03:03:12.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 was shot by Skeleton
+[31May2025 03:03:14.166] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
