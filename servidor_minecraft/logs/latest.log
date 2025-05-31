@@ -524,3 +524,7 @@ com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
 [31May2025 03:03:14.166] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
 [31May2025 03:13:59.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
 [31May2025 03:13:59.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: assaas<--[HERE]
+[31May2025 03:24:27.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 has made the advancement [Fishy Business]
+[31May2025 03:28:29.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[31May2025 03:28:29.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: asdas<--[HERE]
+[31May2025 03:28:35.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 1 of a max of 20 players online: Aki_r22
