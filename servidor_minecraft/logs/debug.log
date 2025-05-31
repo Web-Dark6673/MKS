@@ -3370,3 +3370,7 @@ com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
 [31May2025 01:12:50.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David left the game
 [31May2025 01:13:07.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
 [31May2025 01:13:07.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: asd<--[HERE]
+[31May2025 01:16:42.993] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[31May2025 01:16:43.000] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[31May2025 01:21:42.991] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[31May2025 01:21:42.999] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
