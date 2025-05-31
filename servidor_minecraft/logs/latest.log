@@ -370,3 +370,10 @@ com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
 [31May2025 15:57:12.973] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.434s)! For help, type "help"
 [31May2025 15:57:13.011] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
 [31May2025 16:09:52.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 0 of a max of 20 players online: 
+[31May2025 16:21:06.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[31May2025 16:21:06.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sad<--[HERE]
+[31May2025 16:21:10.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 0 of a max of 20 players online: 
+[31May2025 16:25:35.981] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: David[/127.196.28.254:53225] logged in with entity id 107 at (-1720.323264171369, 104.0, -576.3945934612533)
+[31May2025 16:25:36.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David joined the game
+[31May2025 16:25:36.134] [Server thread/INFO] [Jade/]: Syncing config to David (8030b484-93cb-3e44-a5c9-97b5258ad3b1)
+[31May2025 16:25:38.081] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2116ms or 42 ticks behind
