@@ -536,3 +536,6 @@ com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
 [31May2025 03:57:44.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 1 of a max of 20 players online: Aki_r22
 [31May2025 04:04:27.478] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aki_r22 lost connection: Disconnected
 [31May2025 04:04:27.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 left the game
+[31May2025 04:41:47.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[31May2025 04:41:47.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: asd<--[HERE]
+[31May2025 04:41:51.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 0 of a max of 20 players online: 
