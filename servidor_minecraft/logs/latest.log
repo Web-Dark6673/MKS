@@ -514,3 +514,5 @@ com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
 [31May2025 02:39:19.077] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aki_r22[/127.120.216.121:52357] logged in with entity id 93 at (-323.4665743227557, 76.0, -500.8913785496813)
 [31May2025 02:39:19.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 joined the game
 [31May2025 02:39:19.197] [Server thread/INFO] [Jade/]: Syncing config to Aki_r22 (a0d3169f-475a-32bc-a262-204167b6e77a)
+[31May2025 02:50:48.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[31May2025 02:50:48.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: asd<--[HERE]
