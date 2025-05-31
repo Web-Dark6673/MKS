@@ -531,3 +531,6 @@ com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
 [31May2025 03:38:07.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
 [31May2025 03:38:07.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: asd<--[HERE]
 [31May2025 03:38:11.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 1 of a max of 20 players online: Aki_r22
+[31May2025 03:57:31.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[31May2025 03:57:31.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sdfd<--[HERE]
+[31May2025 03:57:44.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 1 of a max of 20 players online: Aki_r22
