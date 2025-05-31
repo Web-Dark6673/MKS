@@ -522,3 +522,5 @@ com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
 [31May2025 03:03:03.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 is bleeding. Aki_r22 was shot by Skeleton
 [31May2025 03:03:12.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aki_r22 was shot by Skeleton
 [31May2025 03:03:14.166] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[31May2025 03:13:59.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[31May2025 03:13:59.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: assaas<--[HERE]
